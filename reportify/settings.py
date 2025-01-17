@@ -54,8 +54,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_tailwind_cli',
-    #'django_browser_reload', # remove on deployment
-    'reporter'
+    'django_browser_reload', # TODO remove on deployment
+    'reporter',
 ]
 
 MIDDLEWARE = [
@@ -66,7 +66,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    #"django_browser_reload.middleware.BrowserReloadMiddleware",# remove on deployment
+    "django_browser_reload.middleware.BrowserReloadMiddleware",# TODO remove on deployment
     "whitenoise.middleware.WhiteNoiseMiddleware",
 
 ]

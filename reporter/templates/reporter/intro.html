@@ -1,0 +1,32 @@
+<div class="flex flex-col text-center my-10 md:flex-row">
+    <div class="hidden md:flex">
+        <img class="object-cover blur-sm h-screen" src="https://w.wallhaven.cc/full/l8/wallhaven-l8x1pr.jpg" alt="">
+    </div>
+</div>
+
+<div>
+    <h1 class="text-gray-900 dark:text-white text-5xl text-center my-3 md:text-8xl md:p-6 md:m-3">Reportify</h1>
+    <p id="typing-text" class="text-gray-800 dark:text-white text-lg text-center p-4 md:text-left mx-10">
+        <!-- TypeIt will insert the text here -->
+    </p>
+    <div class="flex items-center justify-center my-6">
+        <a href="#form" 
+           class="text-center bg-green-500 p-5 rounded-2xl shadow-2xl shadow-neutral-800 border-b-8 border-b-green-600 text-lg font-medium hover:bg-green-600 hover:border-b-green-700 duration-300 active:translate-y-1 active:outline-none active:border-b-green-600 w-64 md:w-80">
+            Get Started
+        </a>
+    </div>
+</div>
+
+<!-- TypeIt animation -->
+<script>
+    // Initialize TypeIt on the element
+    new TypeIt("#typing-text", {
+        strings: [
+            "Welcome to Reportify, your AI-powered solution for generating comprehensive event reports.",
+            "With Reportify, you can effortlessly create detailed and accurate reports for any event, saving you time and ensuring precision.",
+        ],
+        speed: 50, // Speed of typing
+        breakLines: true, // Keep line breaks
+        waitUntilVisible: true, // Start typing only when the element is visible
+    }).go();
+</script>

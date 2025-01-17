@@ -4,6 +4,11 @@ const plugin = require("tailwindcss/plugin");
 module.exports = {
   content: ["./templates/**/*.html", "**/templates/**/*.html"],
   darkMode: 'class',
+  safelist: [
+    'bg-gray-900', 'text-gray-300', 'text-gray-700', 'dark:text-gray-300',
+    'dark:bg-gray-900', // Add any other important classes you want to keep
+    // Add your dynamic classes
+  ],
   theme: {
     extend: {},
   },

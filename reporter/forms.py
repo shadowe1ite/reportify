@@ -51,6 +51,6 @@ class ReportForm(forms.Form):
         label='Organizer',
         widget=forms.TextInput(attrs={
             'class': input_css_classes,
-            'placeholder': 'Department of Computer Applications',
+            'placeholder': 'Department of Computer Application',
         })
     )

@@ -35,6 +35,8 @@ if made any changes run
 python manage.py tailwind build
 python manage.py collectstatic
 ```
+
+to view app in your local network
 ```bash
 python manage.py runserver 
 ```
